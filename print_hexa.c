@@ -29,7 +29,7 @@ int printf_hex(va_list val)
 	for (x = track - 1; x >= 0; x--)
 	{
 		if (array[x] > 9)
-			array[x] = array[x] + 7;
+			array[x] = array[x] + 39;
 		_putchar(array[x] + '0');
 	}
 	free(array);
