@@ -40,5 +40,7 @@ int printf_dec(va_list args);
 int printf_pointer(va_list val);
 int _printf(const char *format, ...);
 int _strlen(char *s);
+int print_non_printable(va_list types, char buffer[],
+int flags, int width, int precision, int size);
 
 #endif
