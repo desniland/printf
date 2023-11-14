@@ -13,7 +13,7 @@ int _printf(const char * const format, ...)
 		{"%i", printf_int}, {"%d", printf_dec}, {"%r", printf_str_rev},
 		{"%R", printf_rot13}, {"%b", printf_bin},
 		{"%u", printf_unsigned},
-		{"%o", printf_oct}, {"%x", printf_HEX}, {"%X", printf_HEX},
+		{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
 		{"%S", printf_String}, {"%p", printf_pointer}
 	};
 
