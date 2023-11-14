@@ -3,29 +3,29 @@
 /**
  * printf_pointer - prints an address.
  * @val: arguments.
- * Return: counter.
+ * Return: int..
 */
 int printf_pointer(va_list val)
 {
 	void *p;
 	char *s = "(nil)";
-	long int x;
-	int y;
-	int z;
+	long int a;
+	int b;
+	int d;
 
 	p = va_arg(val, void*);
 	if (p == NULL)
 	{
-		for (z = 0; s[z] != '\0'; z++)
+		for (d = 0; s[d] != '\0'; d++)
 		{
-			_putchar(s[z]);
+			_putchar(s[d]);
 		}
-		return (z);
+		return (d);
 	}
 
-	x = (unsigned long int)p;
+	a = (unsigned long int)p;
 	_putchar('0');
 	_putchar('x');
-	y = print_hexa_extra(x);
-	return (y + 2);
+	b = print_hexa_extra(a);
+	return (b + 2);
 }
