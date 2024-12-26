@@ -1,6 +1,6 @@
-#printf
+# printf
 
-#The printf function is used for formatted output. It takes a format string as its first argument, followed by additional arguments that match the placeholders in the format string. These placeholders indicate the type and position of the variables to be printed. This function is being developed in C programming language.
+- The printf function is used for formatted output. It takes a format string as its first argument, followed by additional arguments that match the placeholders in the format string. These placeholders indicate the type and position of the variables to be printed. This function is being developed in C programming language.
 
 ## Features
 1. **Format Specifiers:**
